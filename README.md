@@ -13,3 +13,6 @@
 
 # Pseudo Coding
 - It is a translation of your code
+
+## Exercise 1
+- Create 3 variables to get user data (name, dob, age) display all the information and display the types of variables
