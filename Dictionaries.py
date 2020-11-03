@@ -10,14 +10,18 @@
 
 # Lets create a dictionary
 #
-# devops_students_data = {
-#     "key" : "value",
-#     "name" : "Ben",
-#     "stream" : "tech",
-#     "completed_lessons" : 4,
-#     "completed_lesson_names" : ["operators", "data types", "variables"]
-# }
-
+devops_students_data = {
+    "key" : "value",
+    "name" : "Ben",
+    "stream" : "tech",
+    "completed_lessons" : 4,
+    "completed_lesson_names" : ["operators", "data types", "variables"],
+    "hobbies" : ["watching movies", "data types", "variables"]
+ }
+devops_students_data ["hobbies"].append("running")
+print (devops_students_data)
+devops_students_data ["hobbies"].remove("data types")
+print (devops_students_data)
 # print(devops_students_data.values())
 
 # print(devops_students_data)
@@ -46,27 +50,28 @@
 # create a list of hobbies
 # display data in reverse order of hobby list
 
-user_details = {
-    "name" : "Ben",
-    "DoB" : "04-03-1998",
-    "Address" : "123 avenue road",
-    "course" : "DevOps",
-    "Grades" : "A",
-    "Hobbies" : ["Cycling", "Painting", "Reading", "Sleeping"]
-}
-
-print(user_details.values()) # Prints the values in the list
-
-del user_details ["course"] # deletes course from dictionary
-
-user_details["Pets"] = "Dog" # Adds "Pets" to the list with value "Dog"
-print(user_details)
-
-user_details["Hobbies"][2] = "Speed Reading" # Changes the 2nd index in Hobbies to "Speed Reading"
-print(user_details.values())
-
-print(type(user_details["Hobbies"]))
-
-print(user_details ["Hobbies"][::-1]) # prints the list Hobbies in reverse
+# user_details = {
+#     "name" : "Ben",
+#     "DoB" : "04-03-1998",
+#     "Address" : "123 avenue road",
+#     "course" : "DevOps",
+#     "Grades" : "A",
+#     "Hobbies" : ["Cycling", "Painting", "Reading", "Sleeping"]
+# }
+#
+# print(user_details.values()) # Prints the values in the list
+#
+# devops_students_data ["Hobbies"].remove("Cycling") # removes Cycling from hobbies
+# print (devops_students_data)
+#
+# user_details["Pets"] = "Dog" # Adds "Pets" to the list with value "Dog"
+# print(user_details)
+#
+# user_details["Hobbies"][2] = "Speed Reading" # Changes the 2nd index in Hobbies to "Speed Reading"
+# print(user_details.values())
+#
+# print(type(user_details["Hobbies"]))
+#
+# print(user_details ["Hobbies"][::-1]) # prints the list Hobbies in reverse
 
 
