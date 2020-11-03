@@ -18,14 +18,14 @@
 # last_name_2 = int("777")
 # print(last_name_2, type(last_name_2))
 #
-# name = input("Please enter your name    ")
-# age = input("Please enter your age    ")
-# house_number = input("What is your house number?    ")
-# address = input("What is the 1st line of your address?    ")
-# post_code = input("What is your post code?    ")
+name = input("Please enter your name    ")
+age = input("Please enter your age    ")
+house_number = input("What is your house number?    ")
+address = input("What is the 1st line of your address?    ")
+post_code = input("What is your post code?    ")
 
 
-# print("Hello", name + "!", "you are", age, "years old", "and you live at", house_number, address + ",", post_code)
+print("Hello", name + "!", "you are", age, "years old", "and you live at", house_number, address + ",", post_code)
 
 # single_quotes = 'Single \'wow\' Quotes'
 # print (single_quotes)
