@@ -66,6 +66,9 @@ print (devops_students_data)
 #
 # user_details["Pets"] = "Dog" # Adds "Pets" to the list with value "Dog"
 # print(user_details)
+
+#user_details["Hobbies"].append("Running") # Adds Running to Hobbies list
+#print (user_details["Hobbies"])
 #
 # user_details["Hobbies"][2] = "Speed Reading" # Changes the 2nd index in Hobbies to "Speed Reading"
 # print(user_details.values())
