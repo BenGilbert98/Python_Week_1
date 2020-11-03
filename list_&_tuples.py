@@ -45,13 +45,28 @@
 # use indexing to print the list in reverse order
 # 10 minutes to complete and share your github link at 11:52
 
-mixed_data_list = [1.3, 2, "Apple", "Bike", 4.6, "Pencil", 4]
-print(len(mixed_data_list)) # finds the length of the list
-for i in mixed_data_list:  # for loop to print the data type of each item in the list
-    print(type(i))
-mixed_data_list.append("Phone") # adds "Phone" to the end of the list
-mixed_data_list.remove(1.3) # removes the list item 1.3
-mixed_data_list[2] = "Mountain Bike" # replaces "Bike" with "Mountain Bike"
-mixed_data_list.pop() # removes last value within the list
-print(mixed_data_list) # prints the list
-print(mixed_data_list[::-1]) # prints list in reverse
+# mixed_data_list = [1.3, 2, "Apple", "Bike", 4.6, "Pencil", 4]
+# print("The length of the list is: ", len(mixed_data_list)) # finds the length of the list
+# for i in mixed_data_list:  # for loop to print the data type of each item in the list
+#     print(type(i))
+# mixed_data_list.append("Phone") # adds "Phone" to the end of the list
+# mixed_data_list.remove(1.3) # removes the list item 1.3
+# mixed_data_list[2] = "Mountain Bike" # replaces "Bike" with "Mountain Bike"
+# mixed_data_list.pop() # removes last value within the list
+# print(mixed_data_list) # prints the list
+# print(mixed_data_list[::-1]) # prints list in reverse
+
+#Tuples
+
+# Tuples are immutable (cannot be changed)
+# Use case - things that don't change (NI Number, DOB, Place of birth)
+
+# Syntax: we use ( ) to declare a Tuple
+
+short_list = ("Paracetamol", "Eggs", "Bread")
+print(short_list)
+print(type(short_list))
+# short_list[1] = "Bread" # throws an error because tuples are immutable
+print(short_list[0])
+print(short_list[1])
+print(short_list[2])
